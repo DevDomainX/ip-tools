@@ -7,7 +7,7 @@ from time import sleep
 def IP():
     os.system("clear")
     while True:
-        print(Fore.YELLOW+Style.BRIGHT+Back.BLUE+"""
+        print(Fore.BLUE+Style.BRIGHT+"""
     
         , ;-.      .           .     
         | |  )     |           |     
