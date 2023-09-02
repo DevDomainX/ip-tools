@@ -40,33 +40,27 @@ def IP():
 
             def infoip():
                 ip = input("\nInsert  IP: ")
-                url = "https://ipinfo.io/"
-                os.system(termux-open(url+ip))
+                os.system("termux-open https://ipinfo.io/"+ip))
 
             def WhatmyIP():
                 ip = input("\nInsert  IP: ")
-                url = "https://whatismyipaddress.com/ip/"
-                os.system(termux-open(url+ip))
+                os.system("termux-open https://whatismyipaddress.com/ip/"+ip)
 
             def whois():
                 ip = input("\nInsert IP: ")
-                url = "https://whois.domaintools.com/"
-                os.system(termux-open(url+ip))
+                os.system("termux-open https://whois.domaintools.com/"+ip)
 
             def ip2ubicación():
                 ip = input("\nInsert  IP: ")
-                url = "https://www.ip2location.com/demo/"
-                os.system(termux-open(url+ip))
+                os.system("termux-open https://www.ip2location.com/demo/"+ip)
 
             def nettool():
                 ip = input("\nInsert  IP: ")
-                url = "https://mxtoolbox.com/SuperTool.aspx?action=arin%3a"
-                os.system(termux-open(url+ip))
+                os.system("termux-open https://mxtoolbox.com/SuperTool.aspx?action=arin%3a"+ip)
 
             def gforce():
                 ip = input("\nInsert  IP: ")
-                url = "https://www.g-force.ca/en/hosting/ip-whois?ip="
-                os.system(termux-open(url+ip))
+                os.system("termux-open https://www.g-force.ca/en/hosting/ip-whois?ip="+ip)
         
             def verMi():
                 os.system("ifconfig")
