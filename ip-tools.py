@@ -40,7 +40,7 @@ def IP():
 
             def infoip():
                 ip = input("\nInsert  IP: ")
-                os.system("termux-open https://ipinfo.io/"+ip))
+                os.system("termux-open https://ipinfo.io/"+ip)
 
             def WhatmyIP():
                 ip = input("\nInsert  IP: ")
